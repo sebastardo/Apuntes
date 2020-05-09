@@ -1,6 +1,8 @@
 #define esBlanco(x) ((x) == ' ' || (x) == '\t')
 #define aMayusc(x) ((x)>='a' && (x)<='z'?(x)-32:(x))
 #define aMinusc(x) ((x)>='A' && (x)<='Z'?(x)+32:(x))
+#include "prototipos.h"
+
 
 char *normalizar(char *s)
 {
