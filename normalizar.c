@@ -32,7 +32,7 @@ char *normalizar(char *s)
             }
         }
     }
-    if(des > s && (*des-1) == ' ')
+    if(des > s && *(des-1) == ' ')
         des--;
     *des = '\0';
     return s;
